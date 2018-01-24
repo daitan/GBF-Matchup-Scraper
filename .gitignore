@@ -97,3 +97,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Custom
+client_secret.json
+chromedriver.exe
+logs*
+profile*
+.vs*
