@@ -11,6 +11,7 @@ Simple script that scrapes the guild war scores of your crew and your opponent e
   * oauth2client
   * BeautifulSoup
   * gspread
+  * schedule
   * discord.py development version. Install with the following command:
   * `python3 -m pip install -U https://github.com/Rapptz/discord.py/archive/rewrite.zip#egg=discord.py[voice]`
 * Chrome/chromium
