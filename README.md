@@ -11,6 +11,8 @@ Simple script that scrapes the guild war scores of your crew and your opponent e
   * oauth2client
   * BeautifulSoup
   * gspread
+  * discord.py development version. Install with the following command:
+  * `python3 -m pip install -U https://github.com/Rapptz/discord.py/archive/rewrite.zip#egg=discord.py[voice]`
 * Chrome/chromium
 * [Chrome webdriver](https://sites.google.com/a/chromium.org/chromedriver/downloads) (Must be in the same directory)
 
@@ -25,6 +27,8 @@ Simple script that scrapes the guild war scores of your crew and your opponent e
   8. Create a google docs spreadsheet called **GW Points** under any account.
   9. Open `client_secret.json` and find `client_email` inside and copy this e-mail address.
   10. On the google docs spreadsheet, share the spreadsheet to the e-mail that was copied and ensure that it has permission to edit.
+
+* Edit the variables inside the `matchup-scraper.py` file to suit your needs.
 
  ## Usage
  The GW identifier must be 3 digits. e.g. `035` for the 35th GW.
